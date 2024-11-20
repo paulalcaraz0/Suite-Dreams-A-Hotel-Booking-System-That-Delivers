@@ -114,6 +114,6 @@
 ---
 
 ## ✍️ Authors
-| **Name**            | **GitHub**     | **ID**  |
-|---------------------|----------------|---------|
-| Paul C. Alcaraz     | YourGitHub     | 2024    |
+| **Name**            | **GitHub**                           | **SR-CODE**|
+|---------------------|--------------------------------------|------------|
+| Paul C. Alcaraz     |  https://github.com/paulalcaraz0     | 23-09909   |
