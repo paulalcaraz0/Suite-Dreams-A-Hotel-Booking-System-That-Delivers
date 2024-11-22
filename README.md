@@ -52,17 +52,20 @@
 ## 📦 Application of OOP Principles
 
 ### Encapsulation
-- User and hotel details are encapsulated in their respective classes.
-- Modifications to data can only occur via defined methods.
+- User and hotel details are encapsulated in their respective classes (User, Room, Hotel).
+- Modifications to data, such as the user's balance or room availability, can only occur via defined methods like setBalance() and setAvailable().
 
 ### Inheritance
 - General classes (e.g., `Person`) serve as base classes for specific entities like `User`.
+- This allows shared attributes and methods to be reused, enabling consistent behavior and reducing code duplication.
 
 ### Polymorphism
-- Overridden methods (e.g., `calculateTotal`) ensure tailored behavior.
+- Overridden methods (e.g., toString() in Room and Booking) ensure tailored behavior for specific entities.
+- The showAvailableRooms method in Hotel dynamically adapts behavior based on the runtime data (e.g., room type or user balance).
 
 ### Abstraction
-- Simplifies complex operations, exposing only essential functionalities.
+- Simplifies complex operations, such as managing bookings and user authentication, by exposing only essential functionalities.
+- `BookingManager` abstracts the process of adding bookings to the database, including time zone conversions, ensuring that these details are hidden from the main application logic.
 
 ---
 
