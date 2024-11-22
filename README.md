@@ -1,3 +1,7 @@
+
+![SUITE_DREAMS_logo_with_text-removebg-preview](https://github.com/user-attachments/assets/63be29c6-99a1-4dd9-a09e-1e68b656255a)
+
+
 # ✨🏨 Suite Dreams: Hotel Booking System
 
 ## 🌙 Introduction
@@ -113,7 +117,6 @@
 
 ## 🤝 Acknowledgements
 - **Instructor:** Ms. Fatima Marie P. Agdon  
-- **Developer:** Paul C. Alcaraz  
 
 ---
 
