@@ -6,10 +6,18 @@
 ---
 
 ## 🌍 Alignment with Sustainable Development Goals (SDGs)
+
 **Suite Dreams** contributes to **SDG #9: Industry, Innovation, and Infrastructure** by:
-- Streamlining hotel management processes.
-- Enhancing customer satisfaction through digital innovation.
-- Promoting efficient resource utilization.
+
+- **Streamlining hotel management processes:**
+  - Automating administrative tasks such as user registration, bookings, and payments, leading to reduced manual effort and improved operational efficiency.
+
+- **Enhancing customer satisfaction through digital innovation:**
+  - Providing a user-friendly digital platform for customers to easily browse, book, and manage their stays, improving the overall customer experience.
+
+- **Promoting efficient resource utilization:**
+  - Maximizing room availability and minimizing waste by offering real-time updates and optimizing bookings, ensuring efficient use of the hotel’s resources and infrastructure.
+
 
 ---
 
@@ -29,23 +37,29 @@
 1. **User Registration and Login:**
    - Register new users with secure credentials.
    - Authenticate users with unique usernames and passwords.
+   - Secure password handling with authentication via the DatabaseConnection class.
 
 2. **Real-Time Room Booking:**
-   - View available rooms with detailed descriptions.
+   - View available rooms with detailed descriptions based on room type and user balance.
    - Book rooms based on the user's balance and preferences.
+   - Book rooms dynamically using the showAvailableRooms() and bookingOptions() methods.
+
 
 3. **Account Management:**
    - Display user's balance and allow secure checkout.
    - Option to delete the user account upon exiting the system.
+   - Ability to update the user’s balance after a successful booking.
 
 4. **Payment Integration:**
    - Automatically generate random user balances.
    - Display affordability based on the available balance.
+   - Deduct booking amounts from the user's balance when confirming a reservation.
 
 ### 🔐 Security Features:
 - Input validation for all user data.
 - Secure password storage.
 - Logout and session management.
+- Data Protection
 
 ---
 
@@ -75,19 +89,11 @@
 | **Class Name**          | **Responsibility**                |
 |-------------------------|------------------------------------|
 | `Main`                  | Entry point for the system.       |
-| `User`                  | Handles user details and balance generation. |
-| `Hotel`                 | Manages room listings and bookings. |
+| `User`                  | Manages user details, balance generation, authentication, and session information.|
+| `Hotel`                 | Handles room listings, availability checks, and room booking functionality. |
+| `Room`                  | Represents room details and provides methods for updating room status. |
+| `Booking`               | Stores and manages booking details, including check-in/check-out times and total price. |
 | `DatabaseConnection`    | Ensures secure storage and retrieval of user and booking data. |
-
----
-
-## 🎞 Demonstration Screenshots
-
-### 1. Registration and Login
-*Screenshot showcasing user registration and login interface goes here.*
-
-### 2. Room Booking
-*Screenshot showcasing room booking process goes here.*
 
 ---
 
@@ -110,9 +116,14 @@
 
 ## 💻 Technologies Used
 
-- **Programming Language:** Java  
-- **Libraries:** `java.util.Random`, JDBC  
-- **IDE:** Visual Studio Code with JDK 23  
+- **Programming Language:** Java
+- **Libraries:** 
+  - java.util.Random
+  - JDBC
+- **IDE:** Visual Studio Code with JDK 23
+- **Database:** MySQL
+- **Version Control:** GitHub
+- **Time Management:** java.time.LocalDateTime, java.time.ZonedDateTime
 
 ---
 
