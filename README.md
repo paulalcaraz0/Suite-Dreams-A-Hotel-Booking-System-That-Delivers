@@ -1,6 +1,6 @@
-# 🌟 Suite Dreams: Hotel Booking System
+# ✨🏨 Suite Dreams: Hotel Booking System
 
-## 🏨 Introduction
+## 🌙 Introduction
 **Suite Dreams** is a comprehensive hotel booking system implemented in **Java**. This application enables users to register, securely log in, book hotel rooms, and manage their accounts effectively. The system is designed using **Object-Oriented Programming (OOP)** principles and emphasizes security, real-time updates, and user-friendliness.
 
 ---
@@ -21,14 +21,17 @@
 
 ---
 
-## 🎯 Key Objectives
+## 🔑 Key Objectives
 | **No.** | **Objective** |
 |---------|---------------|
 | 1       | Enable secure user registration and login functionality. |
 | 2       | Provide real-time room availability updates. |
 | 3       | Facilitate user-friendly hotel room booking and payment management. |
 | 4       | Ensure data security and account management. |
-
+| 5       | Integrate dynamic pricing based on room type and user balance. |
+| 6       | Implement session management to ensure secure user sessions and logouts. |
+| 7       | Allow users to manage their bookings and view booking history. |
+| 8       | Provide the option to delete user accounts and associated data upon request. |
 ---
 
 ## 🚀 Features
