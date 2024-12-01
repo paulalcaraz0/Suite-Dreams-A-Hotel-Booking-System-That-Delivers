@@ -114,7 +114,32 @@
    - Add reporting tools for booking and payment history.
 
 ---
+# 📂 **Project Directory Structure**
 
+Below is the outline of the directory structure for this project:
+
+```
+Hotel-Booking-System/
+├── .vscode/
+│   ├── launch.json                          
+│   └── settings.json
+├── database/                           
+│   └── schema.sql
+├── lib/                                
+│   └── mysql-connector-java.jar
+├── src/                                
+│   ├── Main.java                                               
+│   ├── User.java                          
+│   ├── Hotel.java                          
+│   ├── Room.java                           
+│   ├── Booking.java                        
+│   ├── DatabaseConnection.java            
+│   ├── BookingManager.java                
+│   ├── UserManager.java  
+└── README.md                            
+```
+
+---
 ## 🤝 Acknowledgements
 - **Instructor:** Ms. Fatima Marie P. Agdon  
 
