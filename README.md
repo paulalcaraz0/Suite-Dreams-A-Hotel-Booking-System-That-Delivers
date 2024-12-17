@@ -140,6 +140,47 @@ Hotel-Booking-System/
 ```
 
 ---
+# 🗄️ **Database Schema**
+
+Bookings Table
+```
+CREATE TABLE bookings (
+    booking_id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT DEFAULT NULL,
+    room_type VARCHAR(50) DEFAULT NULL,
+    check_in_time TIMESTAMP NULL DEFAULT NULL,
+    check_out_time TIMESTAMP NULL DEFAULT NULL,
+    days_in_hotel INT DEFAULT NULL,
+    total_price DOUBLE DEFAULT NULL,
+    FOREIGN KEY (user_id) REFERENCES users (id) ON DELETE CASCADE
+);
+```
+
+Users Table
+```
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) NOT NULL,
+    password VARCHAR(100) NOT NULL,
+    first_name VARCHAR(50) NOT NULL,
+    last_name VARCHAR(50) NOT NULL,
+    contact_number VARCHAR(15) NOT NULL,
+    balance DOUBLE NOT NULL,
+    UNIQUE (username)
+);
+```
+ Rooms Table
+ ```
+CREATE TABLE rooms (
+    room_id INT AUTO_INCREMENT PRIMARY KEY,
+    room_type VARCHAR(100) DEFAULT NULL,
+    price DECIMAL(10,2) DEFAULT NULL,
+    available TINYINT(1) DEFAULT NULL,
+);
+
+```
+
+---
 ## 🤝 Acknowledgements
 - **Instructor:** Ms. Fatima Marie P. Agdon  
 
