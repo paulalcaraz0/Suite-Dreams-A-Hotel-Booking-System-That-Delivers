@@ -38,8 +38,8 @@ CREATE TABLE bookings (
 -- Insert some test users
 INSERT INTO users (username, password, first_name, last_name, contact_number, balance)
 VALUES
-('user_1', 'password_hash_1', 'John', 'Doe', '09171234567', 1000.50),
-('user_2', 'password_hash_2', 'Jane', 'Smith', '09182345678', 1500.00);
+('user_1', 'ako to', 'Natoy', 'Doe', '09171234567', 1000.50),
+('user_2', 'mima', 'Jane', 'Smith', '09182345678', 1500.00);
 
 -- Insert some test rooms
 INSERT INTO rooms (room_type, price, available)
